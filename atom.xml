@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://i10feng.github.io</id>
+    <title>易灵风</title>
+    <updated>2023-08-25T02:07:11.744Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://i10feng.github.io"/>
+    <link rel="self" href="https://i10feng.github.io/atom.xml"/>
+    <subtitle>异端 反派</subtitle>
+    <logo>https://i10feng.github.io/images/avatar.png</logo>
+    <icon>https://i10feng.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 易灵风</rights>
+    <entry>
+        <title type="html"><![CDATA[这是一篇测试文章]]></title>
+        <id>https://i10feng.github.io/post/zhe-shi-yi-pian-ce-shi-wen-zhang/</id>
+        <link href="https://i10feng.github.io/post/zhe-shi-yi-pian-ce-shi-wen-zhang/">
+        </link>
+        <updated>2023-08-25T01:46:11.000Z</updated>
+        <content type="html"><![CDATA[<p>test</p>
+<blockquote>
+<p>不管你得到的结果是什么，是穷是富，是好是坏，是正面还是负面，你都应该永远记住一个道理：你的外在世界，只不过是你内在世界的反映罢了。如果你的外在生活过得不好，那是因为你的内在生活不顺遂。就是这么简单。</p>
+</blockquote>
+<pre><code class="language-python">def fibo(n):
+    n1 = 0
+    n2 = 1
+    count = 2
+    # 判断输入的值是否合法
+    if n &lt;= 0:
+        print(&quot;请输入一个正整数。&quot;)
+    elif n == 1:
+        print(&quot;斐波那契数列：&quot;, end='')
+        print(n1)
+    else:
+        print(&quot;斐波那契数列：&quot;)
+        print(n1, n2, end=&quot; &quot;)
+        while count &lt; n:
+            nth = n1 + n2
+            print(nth, end=&quot; &quot;)
+            # 更新值
+            n1 = n2
+            n2 = nth
+            count += 1
+
+</code></pre>
+]]></content>
+    </entry>
+</feed>
